@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Falling Words | Nikesh</title>
+	<style>
+		.main-container{
+			width: 800px;
+			overflow: hidden;
+		}
+		#border{
+			width: 800px;
+			height: 400px;
+			background: grey;
+			position: relative;
+			overflow: hidden;
+		}
+		#upper-details{
+			width: 800px;
+			height: 50px;
+			background: black;/*
+			padding-left: 10px;
+			padding-top: 5px;*/
+		}
+
+		#lower-details{
+			width: 800px;
+			height: 50px;
+			background:black;
+			padding-top: 5px;
+		}
+
+		h1, h2{
+			color: white;
+			padding-left: 5px;
+			padding-bottom: 10px;
+		}
+		#word{
+			position: absolute;
+			height: 17px;
+			width: 100px;
+			/*text-align: center;*/
+
+		}
+
+
+	</style>
+</head>
+<body>
+<div clas = "main-container">
+
+	<div id = 'upper-details'>
+		<h1>Score: <span id='score-span'>0</span> </h1>
+	</div>
+
+	<div id = 'border'> 
+
+	</div>
+
+	<div id = "lower-details" class="clrfix">
+		<span id = "lower-left" style="float: left;">
+			<h2>(Start Typing)</h2>
+		</span>
+		<span id = "lower-right" style="float: right;"><button onclick="restartGame()">Reset</button>
+	</div>
+
+</div>
+
+
+
+<script type="text/javascript" src = "js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+
+img{
+	vertical-align: middle;
+}
+.clrfix:before, .clrfix:after {  content: "";  
+display: table; } 
+
+.clrfix:after {  
+clear: both; } 
+
+.clrfix {  zoom: 1; /* IE6&7 */ }
+
